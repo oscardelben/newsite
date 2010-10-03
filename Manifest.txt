@@ -11,4 +11,4 @@ templates/css/master.css
 templates/index.html
 templates/js/application.js
 templates/js/jquery.js
-test_newsite.rb
+test/test_newsite.rb
