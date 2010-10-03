@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+require "fileutils"
+
+# just testing
+
+if ARGV.size != 1
+  abort "Usage: newsite /path/to/site"
+end
+
+destination_path = ARGV.first
+
+abort "#{destination_path} already exists" if File.exists?(destination_path)
+
+source_path = File.join(File.dirname(__FILE__), '..', 'templates')
+
+FileUtils.cp_r source_path, destination_path
+
+puts "All done. Enjoy"
