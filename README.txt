@@ -10,7 +10,7 @@ Newsite is a command line tool that creates a skeleton template for your static 
 
 Uses html5 (including hack for IE)
 Uses jquery
-Uses css reset from http://meyerweb.com/eric/tools/css/reset/
+Uses css reset from http://meyerweb.com/eric/tools/css/reset/ and Baseline Rhythm Calculator from http://topfunky.com/baseline-rhythm-calculator/
 
 == SYNOPSIS:
 

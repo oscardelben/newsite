@@ -1,54 +1,60 @@
-/* v1.0 | 20080212 */
+/* http://topfunky.com/baseline-rhythm-calculator/ plus some default styling*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-}
 body {
-	line-height: 1;
+	font-size: 12px;
+	line-height: 1.5em;
+	margin: 0; padding: 30px;
+	font-family:Verdana, sans-serif;
 }
-ol, ul {
-	list-style: none;
+h1, h2, h3, h4 {
+  font-family:Georgia,Times,serif;
 }
-blockquote, q {
-	quotes: none;
+h1 {
+	margin: 0;
+	font-size: 1.6666666666666667em;
+	line-height: 0.9em;
+	margin-bottom: 0.9em;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+h2 {
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: 1em;
 }
-
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
+h3 {
+	margin: 0;
+	font-size: 1.3333333333333333em;
+	line-height: 1.125em;
+	margin-bottom: 1.125em;
 }
-
-/* remember to highlight inserts somehow! */
-ins {
-	text-decoration: none;
+h4 {
+	margin: 0;
+	font-size: 1.1666666666666667em;
+	line-height: 1.2857142857142858em;
+	margin-bottom: 1.2857142857142858em;
 }
-del {
-	text-decoration: line-through;
+p, ul, blockquote, pre, td, th, label {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
 }
-
-/* tables still need 'cellspacing="0"' in the markup */
+p.small {
+	margin: 0;
+	font-size: 0.8333333333333334em;
+	line-height: 1.8em;
+	margin-bottom: 1.8em;
+}
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+	margin-bottom: 1.5em;
 }
 
-/* end reset */
+ul {
+  list-style-type:disc;
+}
+
+ol {
+  list-style-type:decimal;
+}
+

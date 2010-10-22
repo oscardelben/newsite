@@ -8,6 +8,7 @@ lib/newsite.rb
 test/test_newsite.rb
 test/test_newsite.rb
 templates/css/master.css
+templates/css/reset.css
 templates/index.html
 templates/js/application.js
 templates/js/jquery.js
